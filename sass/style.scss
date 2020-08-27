@@ -1,0 +1,69 @@
+
+.h11{
+
+    border: lightblue;
+    float: inline-end;
+    display: block;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: line-through;
+    font-size: 17px;
+  }
+  h1{
+    background-color: darkcyan;
+  }
+  header{
+      display: flex;
+      align-items: center;
+
+  }
+  nav{
+      padding: 10px;
+  }
+  .flex-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-flow: row wrap;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      
+  }
+  img.animated-gif{
+    width: 120px;
+    height: auto;
+  }
+   .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+   }
+.form{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    text-align: center;
+}
+@media only screen and (max-width : 768px){
+    [class*=col-]{
+      width: 100%;
+    }
+
+  }
+  
+  .top{
+      background-color: bisque;
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+
+
+  }
