@@ -71,8 +71,18 @@ img.animated-gif {
   }
 }
 
+@media (max-width: 960px) {
+  nav ul {
+    display: none;
+  }
+  nav select {
+    display: inline-block;
+  }
+}
+
 .top {
   background-color: bisque;
+  border: thick;
   float: right;
   color: #f2f2f2;
   text-align: center;
